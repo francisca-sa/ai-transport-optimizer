@@ -53,7 +53,12 @@ To run this project locally, ensure you have Python installed, then install the 
 ```bash
 pip install flask requests
 ```
-
+Environment Setup (API Key):
+This project uses the OpenWeather API to fetch real-time weather data.
+1. Get a free API key from [OpenWeather](https://openweathermap.org/).
+2. Rename the `.env.example` file to `.env`.
+3. Open the `.env` file and replace `your_access_key` with your actual API key.
+   
 To start the Web Interface (Flask):
 ```bash
 python app.py
@@ -87,6 +92,7 @@ ai-transport-optimizer/
 ├── clima.py
 ├── combustivel.py
 ├── config.py
+├── .env.example
 ├── grafo.py
 ├── main.py
 ├── procuras.py
