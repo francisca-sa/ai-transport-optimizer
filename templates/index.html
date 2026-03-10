@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Planejador de Rotas para Adeptos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>🛣️ Transportes - Mundial de Futebol 2030 ⚽</h1>
+        <p class="descricao">
+        Encontre o melhor caminho entre estádios de forma simples e rápida.<br>
+        Este gestor mostra as opções mais convenientes de autocarro, comboio, avião, metro ou táxi, tendo em conta o seu horário e número de pessoas.<br>
+        Receba avisos sobre transportes cheios ou paragens necessárias, tudo para que chegue ao seu jogo sem preocupações.<br>
+        A maneira mais fácil de planear a sua viagem durante o campeonato!
+    </p>
+        <div class="painel-controle">
+            <div class="entradas">
+            <select id="origem">
+                <option disabled selected>Ponto de Partida</option>
+                <option>Estadio D.Afonso Henriques</option>
+                <option>Estadio do Dragao</option>
+                <option>Estadio da Luz</option>
+                <option>Estadio Jose Alvalade</option>
+                <option>Estadio Municipal de Faro</option>
+                <option>Estadio Santiago Bernabeu</option>
+                <option>Estadio Metropolitano de Madrid</option>
+                <option>Estadio de La Cartuja</option>
+                <option>Estadio de Villamarin</option>
+                <option>Estadio Camp Nou</option>
+                <option>Estadio de Marraquexe</option>
+                <option>Estadio Abdellah (Rabat)</option>
+                <option>Estadio Ibn Batouta (Tanger)</option>
+                <option>Estadio de Fez</option>
+                <option>Estadio Mohammed V (Casablanca)</option>
+                <option>Estacao de Autocarros-Guimaraes</option>
+                <option>Estacao de Comboios-Guimaraes</option>
+                <option>Campanha</option>
+                <option>Aeroporto Francisco Sa Carneiro (Porto)</option>
+                <option>Estacao Santa Apolonia</option>
+                <option>Estacao do Oriente</option>
+                <option>Aeroporto Humberto Delgado (Lisboa)</option>
+                <option>Terminal Rodoviario de Faro</option>
+                <option>Aeroporto de Faro</option>
+                <option>Estacao Ferroviaria de Faro</option>
+                <option>Atocha (Madrid)</option>
+                <option>Estacao Sur Madrid</option>
+                <option>Aeroporto de Madrid</option>
+                <option>Santa Justa (Sevilha)</option>
+                <option>Plaza de Armas (Sevilha)</option>
+                <option>Aeroporto de Sevilha</option>
+                <option>Barcelona-Sants</option>
+                <option>Estacao Rodoviaria-Barcelona</option>
+                <option>Aeroporto de Barcelona</option>
+                <option>Zona Universitaria (Estacao de Metro)</option>
+                <option>Vigo</option>
+                <option>Badajoz</option>
+                <option>Aeroporto Mohammed V (Casablanca)</option>
+                <option>Casa Voyageurs (Casablanca)</option>
+                <option>Ain Sebaa (Casablanca)</option>
+                <option>Estacao Ferroviaria de Marraquexe</option>
+                <option>Estacao Rodoviaria de Marraquexe</option>
+                <option>Aeroporto de Marraquexe</option>
+                <option>Rabat Ville</option>
+                <option>Estacao Rodoviaria de Rabat</option>
+                <option>Aeroporto de Rabat</option>
+                <option>Estacao Rodoviaria de Tanger</option>
+                <option>Tanger Ville</option>
+                <option>Aeroporto de Tanger</option>
+                <option>Estacao Ferroviaria de Fez</option>
+                <option>Estacao Rodoviaria de Fez</option>
+                <option>Aeroporto de Fez</option>
+                <option>Medina de Fez</option>
+            </select>
+
+            <select id="destino">
+                <option disabled selected>Destino</option>
+                <option>Estadio D.Afonso Henriques</option>
+                <option>Estadio do Dragao</option>
+                <option>Estadio da Luz</option>
+                <option>Estadio Jose Alvalade</option>
+                <option>Estadio Municipal de Faro</option>
+                <option>Estadio Santiago Bernabeu</option>
+                <option>Estadio Metropolitano de Madrid</option>
+                <option>Estadio de La Cartuja</option>
+                <option>Estadio de Villamarin</option>
+                <option>Estadio Camp Nou</option>
+                <option>Estadio de Marraquexe</option>
+                <option>Estadio Abdellah (Rabat)</option>
+                <option>Estadio Ibn Batouta (Tanger)</option>
+                <option>Estadio de Fez</option>
+                <option>Estadio Mohammed V (Casablanca)</option>
+                <option>Estacao de Autocarros-Guimaraes</option>
+                <option>Estacao de Comboios-Guimaraes</option>
+                <option>Campanha</option>
+                <option>Aeroporto Francisco Sa Carneiro (Porto)</option>
+                <option>Estacao Santa Apolonia</option>
+                <option>Estacao do Oriente</option>
+                <option>Aeroporto Humberto Delgado (Lisboa)</option>
+                <option>Terminal Rodoviario de Faro</option>
+                <option>Aeroporto de Faro</option>
+                <option>Estacao Ferroviaria de Faro</option>
+                <option>Atocha (Madrid)</option>
+                <option>Estacao Sur Madrid</option>
+                <option>Aeroporto de Madrid</option>
+                <option>Santa Justa (Sevilha)</option>
+                <option>Plaza de Armas (Sevilha)</option>
+                <option>Aeroporto de Sevilha</option>
+                <option>Barcelona-Sants</option>
+                <option>Estacao Rodoviaria-Barcelona</option>
+                <option>Aeroporto de Barcelona</option>
+                <option>Zona Universitaria (Estacao de Metro)</option>
+                <option>Vigo</option>
+                <option>Badajoz</option>
+                <option>Aeroporto Mohammed V (Casablanca)</option>
+                <option>Casa Voyageurs (Casablanca)</option>
+                <option>Ain Sebaa (Casablanca)</option>
+                <option>Estacao Ferroviaria de Marraquexe</option>
+                <option>Estacao Rodoviaria de Marraquexe</option>
+                <option>Aeroporto de Marraquexe</option>
+                <option>Rabat Ville</option>
+                <option>Estacao Rodoviaria de Rabat</option>
+                <option>Aeroporto de Rabat</option>
+                <option>Estacao Rodoviaria de Tanger</option>
+                <option>Tanger Ville</option>
+                <option>Aeroporto de Tanger</option>
+                <option>Estacao Ferroviaria de Fez</option>
+                <option>Estacao Rodoviaria de Fez</option>
+                <option>Aeroporto de Fez</option>
+                <option>Medina de Fez</option>
+            </select>
+
+            <label>🚶 Número de passageiros:</label>
+            <input type="number" id="passageiros" placeholder="Nº de Adeptos" min="1" value="1">
+
+            <div class="input-algoritmo-wrapper">
+                <label>⚙️ Algoritmo:</label>
+                <select id="algoritmo" class="input-algoritmo">
+                    <option value="padrao">Padrão (Yen)</option>
+                    <option value="bfs">BFS</option>
+                    <option value="dfs">DFS</option>
+                    <option value="ucs">Custo Uniforme</option>
+                    <option value="a_star">A*</option>
+                    <option value="greedy">Greedy</option>
+                </select>
+            </div>
+
+            <div class="controles-tempo">
+                <div>
+                    <label>⏰ Partida:</label>
+                    <input type="time" id="horario_partida">
+                </div>
+                <div>
+                    <label>🏁 Chegada Máx:</label>
+                    <input type="time" id="horario_chegada">
+                </div>
+                <div>
+                    <label>⏳ Tempo Máx (HH:MM):</label>
+                    <input type="text" id="tempo_maximo" placeholder="Ex: 04:30">
+                </div>
+            </div>
+
+    <button onclick="calcularRota()">Procurar Rota</button>
+</div>
+
+            
+            <div class="resultados">
+                <div id="resumo"></div>
+                <div id="detalhes"></div>
+            </div>
+        </div>
+
+        <div id="mapa"></div>
+    </div>
+
+    <datalist id="estadios">
+        <option value="Estadio D.Afonso Henriques">
+        <option value="Estadio do Dragao">
+        <option value="Estadio da Luz">
+        <option value="Estadio Jose Alvalade">
+        <option value="Estadio Municipal de Faro">
+        <option value="Estadio Santiago Bernabeu">
+        <option value="Estadio Metropolitano de Madrid">
+        <option value="Estadio de La Cartuja">
+        <option value="Estadio de Villamarin">
+        <option value="Estadio Camp Nou">
+        <option value="Estadio de Marraquexe">
+        <option value="Estadio Abdellah (Rabat)">
+        <option value="Estadio Ibn Batouta (Tanger)">
+        <option value="Estadio de Fez">
+        <option value="Estadio Mohammed V (Casablanca)">
+    </datalist>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        const mapa = L.map('mapa').setView([38.7223, -9.1393], 6)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(mapa)
+
+        let rotaLayer = L.layerGroup().addTo(mapa)
+
+        function desenharRota(coordenadas) {
+            rotaLayer.clearLayers()
+
+            if (coordenadas.length > 1) {
+                const pontos = coordenadas.map(c => [c.lat, c.lon])
+                L.polyline(pontos, {
+                    color: '#e74c3c',
+                    weight: 4,
+                    dashArray: '5, 5'
+                }).addTo(rotaLayer)
+            }
+
+            coordenadas.forEach((coord, index) => {
+                const icone = L.icon({
+                    iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${index === 0 ? 'red' : 'blue'}.png`,
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41]
+                })
+
+                L.marker([coord.lat, coord.lon], { icon: icone })
+                    .bindPopup(`${index === 0 ? 'Origem' : 'Destino'}: ${coord.nome}`)
+                    .addTo(rotaLayer)
+            })
+
+            if (coordenadas.length > 0) {
+                const bounds = L.latLngBounds(coordenadas.map(c => [c.lat, c.lon]))
+                mapa.fitBounds(bounds.pad(0.2)) 
+            }
+        }
+
+        async function calcularRota() {
+            const origem = document.getElementById('origem').value;
+            const destino = document.getElementById('destino').value;
+            const passageiros = document.getElementById('passageiros').value || "1";
+            const horarioPartida = document.getElementById('horario_partida').value;
+            const horarioChegada = document.getElementById('horario_chegada').value;
+            const tempoMaximo = document.getElementById('tempo_maximo').value;
+            const algoritmo = document.getElementById('algoritmo').value;
+
+            const body = {
+                origem: origem,
+                destino: destino,
+                passageiros: passageiros || "1",
+                horario_partida: document.getElementById('horario_partida').value || null,
+                horario_chegada: document.getElementById('horario_chegada').value || null,
+                tempo_maximo: document.getElementById('tempo_maximo').value || null,
+                algoritmo: document.getElementById('algoritmo').value !== "padrao" 
+                    ? document.getElementById('algoritmo').value 
+                    : null
+            };
+
+            try {
+                const resposta = await fetch('/calcular_rota', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(body)
+                })
+
+                const dados = await resposta.json()
+
+                if (dados.erro) {
+                    alert(`Erro: ${dados.erro}`)
+                    return
+                }
+
+                document.getElementById('resumo').innerHTML = `
+                    <h2>📊 Resumo da Rota</h2>
+                    <p>💰 Custo Total: €${dados.custo_total.toFixed(2)}</p>
+                    <p>👤 Custo por Pessoa: €${dados.custo_por_pessoa.toFixed(2)}</p>
+                    <p>⏱️ Duração Total (em horas): ${dados.duracao_total}</p>
+                    ${dados.excedeu_capacidade ? '<p class="aviso">⚠️ AVISO: Alguns transportes excedem a capacidade - ver detalhes</p>' : ''}
+                `
+
+                if (dados.coordenadas) {
+                    desenharRota(dados.coordenadas)
+                } else {
+                    mapa.setView([38.7223, -9.1393], 6)
+                }
+
+                if (dados.etapas) {
+                    let htmlEtapas = "<h3>🗺️ Detalhes do Percurso</h3>";
+                    dados.etapas.forEach(etapa => {
+                        const capacidadeInfo = etapa.capacidade && etapa.num_passageiros > etapa.capacidade 
+                            ? `<div class="aviso-capacidade">
+                                ⚠️ Capacidade máxima de ${etapa.capacidade} passageiros. Serão necessárias ${Math.ceil(etapa.num_passageiros / etapa.capacidade)} viagens
+                            </div>`
+                            : '';
+                        const combustivelInfo = etapa.pontos_reabastecimento && etapa.pontos_reabastecimento.length > 0
+                            ? `<div class="aviso-combustivel">
+                                ⛽ Reabastecimento necessário após: 
+                                ${etapa.pontos_reabastecimento.join(', ')} km
+                            </div>`
+                            : '';
+                        htmlEtapas += `
+                        <div class="etapa">
+                            <div class="detalhes-etapa">
+                                <div class="transporte">${etapa.transporte}</div>
+                                <div class="tempos">
+                                    <span>🚩 ${etapa.origem} → ${etapa.destino}</span>
+                                    <span>🕒 ${etapa.partida} - ${etapa.chegada}</span>
+                                </div>
+                                <div class="custos">€${etapa.custo_por_pessoa.toFixed(2)}</div>
+                            </div>
+                            <div class="duracao">⏱️ ${etapa.duracao}</div>
+                            ${capacidadeInfo}
+                            ${combustivelInfo}
+                        </div>
+                        `;
+                    });
+                    document.getElementById('detalhes').innerHTML = htmlEtapas;
+                }
+
+
+
+            } catch (erro) {
+                console.error('Falha na requisição:', erro)
+                alert('Erro de comunicação com o servidor')
+            }
+        }
+    </script>
+</body>
+</html>

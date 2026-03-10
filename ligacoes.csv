@@ -1,0 +1,233 @@
+origem,destino,tipo_transporte,tempo_viagem_minutos,custo_euros,capacidade,intervalo_minutos,primeira_partida_hora,ultima_partida_hora,latitude_origem,longitude_origem,latitude_destino,longitude_destino,cidade_origem,regiao_origem,pais_origem,continente_origem,cidade_destino,regiao_destino,pais_destino,continente_destino
+Estadio D.Afonso Henriques,Estacao de Autocarros-Guimaraes,Caminhada,10,0,,,,,41.45,-8.3,41.44,-8.3,Guimarães,Norte,Portugal,Europa,Guimarães,Norte,Portugal,Europa
+Estadio D.Afonso Henriques,Estacao de Comboios-Guimaraes,Autocarro,20,2,50,30,7:00,21:00,41.45,-8.3,41.44,-8.29,Guimarães,Norte,Portugal,Europa,Guimarães,Norte,Portugal,Europa
+Estadio D.Afonso Henriques,Estadio do Dragao,Taxi,50,40,4,,,,41.45,-8.3,41.16,-8.58,Guimarães,Norte,Portugal,Europa,Porto,Norte,Portugal,Europa
+Estadio D.Afonso Henriques,Estadio da Luz,Taxi,210,450,4,,,,41.45,-8.3,38.75,-9.18,Guimarães,Norte,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio D.Afonso Henriques,Estadio Jose Alvalade,Taxi,210,450,4,,,,41.45,-8.3,38.76,-9.16,Guimarães,Norte,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio D.Afonso Henriques,Estadio Municipal de Faro,Taxi,330,500,4,,,,41.45,-8.3,37.03,-7.94,Guimarães,Norte,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estadio D.Afonso Henriques,Estadio Santiago Bernabeu,Taxi,330,600,4,,,,41.45,-8.3,40.45,-3.69,Guimarães,Norte,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio D.Afonso Henriques,Estadio Metropolitano de Madrid,Taxi,330,600,4,,,,41.45,-8.3,40.44,-3.6,Guimarães,Norte,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio D.Afonso Henriques,Estadio de La Cartuja,Taxi,360,800,4,,,,41.45,-8.3,37.42,-6.01,Guimarães,Norte,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio D.Afonso Henriques,Estadio de Villamarin,Taxi,360,800,4,,,,41.45,-8.3,37.38,-5.97,Guimarães,Norte,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio D.Afonso Henriques,Estadio Camp Nou,Taxi,630,1500,4,,,,41.45,-8.3,41.38,2.12,Guimarães,Norte,Portugal,Europa,Barcelona,Catalunha,Espanha,Europa
+Estacao de Autocarros-Guimaraes,Campanha,Autocarro Interurbano,60,6,50,60,7:00,21:00,41.44,-8.3,41.15,-8.61,Guimarães,Norte,Portugal,Europa,Porto,Norte,Portugal,Europa
+Estacao de Comboios-Guimaraes,Campanha,Comboio,80,3,200,60,7:00,21:00,41.44,-8.29,41.15,-8.61,Guimarães,Norte,Portugal,Europa,Porto,Norte,Portugal,Europa
+Estadio do Dragao,Campanha,Autocarro,20,2,50,30,7:00,21:00,41.16,-8.58,41.15,-8.61,Porto,Norte,Portugal,Europa,Porto,Norte,Portugal,Europa
+Estadio do Dragao,Campanha,Metro,10,1.5,70,15,6:30,23:30,41.16,-8.58,41.15,-8.61,Porto,Norte,Portugal,Europa,Porto,Norte,Portugal,Europa
+Estadio do Dragao,Aeroporto Francisco Sa Carneiro (Porto),Taxi,20,10,4,,,,41.16,-8.58,41.24,-8.68,Porto,Norte,Portugal,Europa,Porto,Norte,Portugal,Europa
+Estadio do Dragao,Estadio da Luz,Taxi,180,300,4,,,,41.16,-8.58,38.75,-9.18,Porto,Norte,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio do Dragao,Estadio Jose Alvalade,Taxi,180,300,4,,,,41.16,-8.58,38.76,-9.16,Porto,Norte,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio do Dragao,Estadio Municipal de Faro,Taxi,300,400,4,,,,41.16,-8.58,37.03,-7.94,Porto,Norte,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estadio do Dragao,Estadio Santiago Bernabeu,Taxi,300,600,4,,,,41.16,-8.58,40.45,-3.69,Porto,Norte,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio do Dragao,Estadio Metropolitano de Madrid,Taxi,300,600,4,,,,41.16,-8.58,40.44,-3.6,Porto,Norte,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio do Dragao,Estadio de La Cartuja,Taxi,330,800,4,,,,41.16,-8.58,37.42,-6.01,Porto,Norte,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio do Dragao,Estadio de Villamarin,Taxi,330,800,4,,,,41.16,-8.58,37.38,-5.97,Porto,Norte,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio do Dragao,Estadio Camp Nou,Taxi,600,1300,4,,,,41.16,-8.58,41.38,2.12,Porto,Norte,Portugal,Europa,Barcelona,Catalunha,Espanha,Europa
+Campanha,Terminal Rodoviario de Faro,Autocarro Interurbano,420,30,50,480,10:00,18:00,41.15,-8.61,37.02,-7.93,Porto,Norte,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Campanha,Estacao do Oriente,Autocarro Interurbano,240,15,50,480,10:00,18:00,41.15,-8.61,38.77,-9.1,Porto,Norte,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Campanha,Estacao Santa Apolonia,Comboio,180,40,300,60,6:00,23:00,41.15,-8.61,38.72,-9.12,Porto,Norte,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Campanha,Atocha (Madrid),Comboio,450,70,400,180,6:00,23:00,41.15,-8.61,40.41,-3.69,Porto,Norte,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Campanha,Vigo,Comboio,90,10,300,120,7:00,23:00,41.15,-8.61,42.24,-8.72,Porto,Norte,Portugal,Europa,Vigo,Galiza,Espanha,Europa
+Vigo,Atocha (Madrid),Comboio,390,60,400,180,6:00,22:00,42.24,-8.72,40.41,-3.69,Vigo,Galiza,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Campanha,Aeroporto Francisco Sa Carneiro (Porto),Metro,15,2,70,15,6:30,23:30,41.15,-8.61,41.24,-8.68,Porto,Norte,Portugal,Europa,Porto,Norte,Portugal,Europa
+Campanha,Estacao Rodoviaria-Barcelona,Autocarro Interurbano,900,80,50,480,10:00,18:00,41.15,-8.61,41.39,2.15,Porto,Norte,Portugal,Europa,Barcelona,Catalunha,Espanha,Europa
+Campanha,Estacao Sur Madrid,Autocarro Interurbano,480,50,50,240,10:00,18:00,41.15,-8.61,40.38,-3.69,Porto,Norte,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Campanha,Santa Justa (Sevilha),Autocarro Interurbano,600,50,50,240,10:00,18:00,41.15,-8.61,37.39,-5.97,Porto,Norte,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Aeroporto Francisco Sa Carneiro (Porto),Aeroporto Humberto Delgado (Lisboa),Aviao,150,80,150,540,9:00,18:00,41.24,-8.68,38.77,-9.13,Porto,Norte,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Aeroporto Francisco Sa Carneiro (Porto),Aeroporto de Faro,Aviao,150,60,150,540,9:10,18:10,41.24,-8.68,37.01,-7.97,Porto,Norte,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Aeroporto Francisco Sa Carneiro (Porto),Aeroporto Mohammed V (Casablanca),Aviao,180,90,150,[1 por dia],10:00,10:00,41.24,-8.68,33.37,-7.59,Porto,Norte,Portugal,Europa,Casablanca,Casablanca-Settat,Marrocos,África
+Aeroporto Francisco Sa Carneiro (Porto),Aeroporto de Marraquexe,Aviao,180,90,150,[1 por dia],11:00,11:00,41.24,-8.68,31.6,-8.03,Porto,Norte,Portugal,Europa,Marraquexe,Marraquexe-Safi,Marrocos,África
+Aeroporto Francisco Sa Carneiro (Porto),Aeroporto de Barcelona,Aviao,180,90,150,[1 por dia],12:00,12:00,41.24,-8.68,41.3,2.08,Porto,Norte,Portugal,Europa,Barcelona,Catalunha,Espanha,Europa
+Aeroporto Francisco Sa Carneiro (Porto),Aeroporto de Madrid,Aviao,180,90,150,[1 por dia],13:00,13:00,41.24,-8.68,40.49,-3.57,Porto,Norte,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Aeroporto Francisco Sa Carneiro (Porto),Aeroporto de Sevilha,Aviao,180,90,150,[1 por dia],14:00,14:00,41.24,-8.68,37.42,-5.9,Porto,Norte,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio Jose Alvalade,Estacao do Oriente,Metro,20,2,70,15,6:30,23:30,38.76,-9.16,38.77,-9.1,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Estacao do Oriente,Autocarro,30,2,50,30,7:30,22:30,38.76,-9.16,38.77,-9.1,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Estacao do Oriente,Taxi,10,10,4,,,,38.76,-9.16,38.77,-9.1,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Aeroporto Humberto Delgado (Lisboa),Taxi,10,10,4,,,,38.76,-9.16,38.77,-9.13,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Aeroporto Humberto Delgado (Lisboa),Metro,20,2,70,15,6:30,23:30,38.76,-9.16,38.77,-9.13,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Aeroporto Humberto Delgado (Lisboa),Autocarro,20,2,50,60,7:30,22:30,38.76,-9.16,38.77,-9.13,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Estacao Santa Apolonia,Metro,15,2,70,15,6:30,23:30,38.76,-9.16,38.72,-9.12,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Estacao Santa Apolonia,Autocarro,30,2,50,30,7:30,22:30,38.76,-9.16,38.72,-9.12,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Estacao Santa Apolonia,Taxi,10,10,4,,,,38.76,-9.16,38.72,-9.12,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Estadio da Luz,Taxi,10,10,4,,,,38.76,-9.16,38.75,-9.18,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Estadio da Luz,Metro,15,2,70,15,6:30,23:30,38.76,-9.16,38.75,-9.18,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Estadio da Luz,Autocarro,20,2,50,30,7:30,22:30,38.76,-9.16,38.75,-9.18,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio Jose Alvalade,Estadio Municipal de Faro,Taxi,180,200,4,,,,38.76,-9.16,37.03,-7.94,Lisboa,Área Metropolitana,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estadio Jose Alvalade,Estadio Santiago Bernabeu,Taxi,360,900,4,,,,38.76,-9.16,40.45,-3.69,Lisboa,Área Metropolitana,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Jose Alvalade,Estadio Metropolitano de Madrid,Taxi,360,900,4,,,,38.76,-9.16,40.44,-3.6,Lisboa,Área Metropolitana,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Jose Alvalade,Estadio de La Cartuja,Taxi,270,700,4,,,,38.76,-9.16,37.42,-6.01,Lisboa,Área Metropolitana,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio Jose Alvalade,Estadio de Villamarin,Taxi,270,700,4,,,,38.76,-9.16,37.38,-5.97,Lisboa,Área Metropolitana,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio Jose Alvalade,Estadio Camp Nou,Taxi,660,1500,4,,,,38.76,-9.16,41.38,2.12,Lisboa,Área Metropolitana,Portugal,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio da Luz,Estacao do Oriente,Metro,25,2,70,15,6:30,23:30,38.75,-9.18,38.77,-9.1,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio da Luz,Estacao do Oriente,Autocarro,35,2,50,30,7:30,22:30,38.75,-9.18,38.77,-9.1,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio da Luz,Estacao do Oriente,Taxi,15,10,4,,,,38.75,-9.18,38.77,-9.1,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio da Luz,Aeroporto Humberto Delgado (Lisboa),Taxi,15,15,4,,,,38.75,-9.18,38.77,-9.13,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio da Luz,Aeroporto Humberto Delgado (Lisboa),Metro,30,2,70,15,6:30,23:30,38.75,-9.18,38.77,-9.13,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio da Luz,Aeroporto Humberto Delgado (Lisboa),Autocarro,25,2,50,60,7:30,22:30,38.75,-9.18,38.77,-9.13,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio da Luz,Estacao Santa Apolonia,Metro,30,2,70,15,6:30,23:30,38.75,-9.18,38.72,-9.12,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio da Luz,Estacao Santa Apolonia,Autocarro,30,2,50,30,7:30,22:30,38.75,-9.18,38.72,-9.12,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio da Luz,Estacao Santa Apolonia,Taxi,15,10,4,,,,38.75,-9.18,38.72,-9.12,Lisboa,Área Metropolitana,Portugal,Europa,Lisboa,Área Metropolitana,Portugal,Europa
+Estadio da Luz,Estadio Municipal de Faro,Taxi,180,200,4,,,,38.75,-9.18,37.03,-7.94,Lisboa,Área Metropolitana,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estadio da Luz,Estadio Santiago Bernabeu,Taxi,360,900,4,,,,38.75,-9.18,40.45,-3.69,Lisboa,Área Metropolitana,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio da Luz,Estadio Metropolitano de Madrid,Taxi,360,900,4,,,,38.75,-9.18,40.44,-3.6,Lisboa,Área Metropolitana,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio da Luz,Estadio de La Cartuja,Taxi,270,700,4,,,,38.75,-9.18,37.42,-6.01,Lisboa,Área Metropolitana,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio da Luz,Estadio de Villamarin,Taxi,270,700,4,,,,38.75,-9.18,37.38,-5.97,Lisboa,Área Metropolitana,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio da Luz,Estadio Camp Nou,Taxi,660,1500,4,,,,38.75,-9.18,41.38,2.12,Lisboa,Área Metropolitana,Portugal,Europa,Barcelona,Catalunha,Espanha,Europa
+Aeroporto Humberto Delgado (Lisboa),Aeroporto de Faro,Aviao,120,80,150,[1 por dia],12:00,12:00,38.77,-9.13,37.01,-7.97,Lisboa,Área Metropolitana,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Aeroporto Humberto Delgado (Lisboa),Aeroporto de Barcelona,Aviao,180,80,150,540,9:00,18:00,38.77,-9.13,41.3,2.08,Lisboa,Área Metropolitana,Portugal,Europa,Barcelona,Catalunha,Espanha,Europa
+Aeroporto Humberto Delgado (Lisboa),Aeroporto de Madrid,Aviao,120,70,150,540,9:05,18:05,38.77,-9.13,40.49,-3.57,Lisboa,Área Metropolitana,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Aeroporto Humberto Delgado (Lisboa),Aeroporto de Sevilha,Aviao,120,70,150,[1 por dia],10:00,10:00,38.77,-9.13,37.42,-5.9,Lisboa,Área Metropolitana,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Aeroporto Humberto Delgado (Lisboa),Aeroporto de Marraquexe,Aviao,180,80,150,[1 por dia],11:00,11:00,38.77,-9.13,31.6,-8.03,Lisboa,Área Metropolitana,Portugal,Europa,Marraquexe,Marraquexe-Safi,Marrocos,África
+Aeroporto Humberto Delgado (Lisboa),Aeroporto Mohammed V (Casablanca),Aviao,180,80,150,[1 por dia],12:05,12:05,38.77,-9.13,33.37,-7.59,Lisboa,Área Metropolitana,Portugal,Europa,Casablanca,Casablanca-Settat,Marrocos,África
+Aeroporto Humberto Delgado (Lisboa),Aeroporto de Tanger,Aviao,180,80,150,[1 por dia],13:00,13:00,38.77,-9.13,35.73,-5.9,Lisboa,Área Metropolitana,Portugal,Europa,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África
+Aeroporto Humberto Delgado (Lisboa),Aeroporto de Rabat,Aviao,180,80,150,[1 por dia],14:00,14:00,38.77,-9.13,34.05,-6.77,Lisboa,Área Metropolitana,Portugal,Europa,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Estacao Santa Apolonia,Estacao Ferroviaria de Faro,Comboio,180,30,300,60,6:00,23:00,38.72,-9.12,37.02,-7.95,Lisboa,Área Metropolitana,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estacao Santa Apolonia,Atocha (Madrid),Comboio,600,50,400,480,00:00,24:00,38.72,-9.12,40.41,-3.69,Lisboa,Área Metropolitana,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estacao Santa Apolonia,Badajoz,Comboio,180,20,300,60,10:00,21:00,38.72,-9.12,38.8794,-6.9707,Lisboa,Área Metropolitana,Portugal,Europa,Badajoz,Extremadura,Espanha,Europa
+Badajoz,Santa Justa (Sevilha),Comboio,240,30,300,120,09:00,21:00,38.8794,-6.9707,37.39,-5.97,Badajoz,Extremadura,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estacao do Oriente,Terminal Rodoviario de Faro,Autocarro Interurbano,240,20,50,60,8:00,21:00,38.77,-9.1,37.02,-7.93,Lisboa,Área Metropolitana,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estacao do Oriente,Plaza de Armas (Sevilha),Autocarro Interurbano,420,40,50,480,9:00,17:00,38.77,-9.1,37.38,-5.99,Lisboa,Área Metropolitana,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estacao do Oriente,Estacao Sur Madrid,Autocarro Interurbano,480,50,50,240,9:00,17:00,38.77,-9.1,40.38,-3.69,Lisboa,Área Metropolitana,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estacao do Oriente,Estacao Rodoviaria-Barcelona,Autocarro Interurbano,1140,80,50,480,9:00,17:00,38.77,-9.1,41.39,2.15,Lisboa,Área Metropolitana,Portugal,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio Municipal de Faro,Estacao Ferroviaria de Faro,Autocarro,15,2,50,30,7:00,21:00,37.03,-7.94,37.02,-7.95,Faro,Algarve,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estadio Municipal de Faro,Estacao Ferroviaria de Faro,Taxi,10,10,4,,,,37.03,-7.94,37.02,-7.95,Faro,Algarve,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estadio Municipal de Faro,Terminal Rodoviario de Faro,Autocarro,15,2,50,30,7:00,21:00,37.03,-7.94,37.02,-7.93,Faro,Algarve,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estadio Municipal de Faro,Terminal Rodoviario de Faro,Taxi,10,10,4,,,,37.03,-7.94,37.02,-7.93,Faro,Algarve,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estadio Municipal de Faro,Aeroporto de Faro,Taxi,15,10,4,,,,37.03,-7.94,37.01,-7.97,Faro,Algarve,Portugal,Europa,Faro,Algarve,Portugal,Europa
+Estadio Municipal de Faro,Estadio Santiago Bernabeu,Taxi,390,700,4,,,,37.03,-7.94,40.45,-3.69,Faro,Algarve,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Municipal de Faro,Estadio Metropolitano de Madrid,Taxi,390,700,4,,,,37.03,-7.94,40.44,-3.6,Faro,Algarve,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Municipal de Faro,Estadio de La Cartuja,Taxi,180,300,4,,,,37.03,-7.94,37.42,-6.01,Faro,Algarve,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio Municipal de Faro,Estadio de Villamarin,Taxi,180,300,4,,,,37.03,-7.94,37.38,-5.97,Faro,Algarve,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio Municipal de Faro,Estadio Camp Nou,Taxi,600,1500,4,,,,37.03,-7.94,41.38,2.12,Faro,Algarve,Portugal,Europa,Barcelona,Catalunha,Espanha,Europa
+Terminal Rodoviario de Faro,Plaza de Armas (Sevilha),Autocarro Interurbano,300,30,50,480,9:00,17:00,37.02,-7.93,37.38,-5.99,Faro,Algarve,Portugal,Europa,Sevilha,Andaluzia,Espanha,Europa
+Aeroporto de Faro,Aeroporto de Madrid,Aviao,120,70,200,[1 por dia],11:00,11:00,37.01,-7.97,40.49,-3.57,Faro,Algarve,Portugal,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Aeroporto de Faro,Aeroporto de Barcelona,Aviao,180,100,200,[1 por dia],12:00,12:00,37.01,-7.97,41.3,2.08,Faro,Algarve,Portugal,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio Santiago Bernabeu,Estadio Metropolitano de Madrid,Taxi,20,20,4,,,,40.45,-3.69,40.44,-3.6,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Santiago Bernabeu,Estadio Metropolitano de Madrid,Metro,30,2,70,15,6:30,23:30,40.45,-3.69,40.44,-3.6,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Santiago Bernabeu,Estadio Metropolitano de Madrid,Autocarro,40,1.5,50,30,7:30,22:30,40.45,-3.69,40.44,-3.6,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Santiago Bernabeu,Atocha (Madrid),Taxi,15,10,4,,,,40.45,-3.69,40.41,-3.69,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Santiago Bernabeu,Atocha (Madrid),Metro,30,2,70,15,6:30,23:30,40.45,-3.69,40.41,-3.69,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Santiago Bernabeu,Aeroporto de Madrid,Taxi,20,30,4,,,,40.45,-3.69,40.49,-3.57,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Santiago Bernabeu,Aeroporto de Madrid,Metro,20,2,70,15,6:30,23:30,40.45,-3.69,40.49,-3.57,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Santiago Bernabeu,Estadio de La Cartuja,Taxi,300,600,4,,,,40.45,-3.69,37.42,-6.01,Madrid,Comunidade de Madrid,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio Santiago Bernabeu,Estadio de Villamarin,Taxi,300,600,4,,,,40.45,-3.69,37.38,-5.97,Madrid,Comunidade de Madrid,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio Santiago Bernabeu,Estadio Camp Nou,Taxi,360,1000,4,,,,40.45,-3.69,41.38,2.12,Madrid,Comunidade de Madrid,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio Santiago Bernabeu,Estacao Sur Madrid,Metro,25,2,70,15,6:30,23:30,40.45,-3.69,40.38,-3.69,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Santiago Bernabeu,Estacao Sur Madrid,Autocarro,40,1.5,50,30,7:30,22:30,40.45,-3.69,40.38,-3.69,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Santiago Bernabeu,Estacao Sur Madrid,Taxi,15,15,4,,,,40.45,-3.69,40.38,-3.69,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Metropolitano de Madrid,Estacao Sur Madrid,Metro,30,2,70,15,6:30,23:30,40.44,-3.6,40.38,-3.69,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Metropolitano de Madrid,Estacao Sur Madrid,Taxi,15,15,4,,,,40.44,-3.6,40.38,-3.69,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Metropolitano de Madrid,Atocha (Madrid),Taxi,20,20,4,,,,40.44,-3.6,40.41,-3.69,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Metropolitano de Madrid,Atocha (Madrid),Metro,30,2,70,15,6:30,23:30,40.44,-3.6,40.41,-3.69,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Metropolitano de Madrid,Aeroporto de Madrid,Taxi,20,30,4,,,,40.44,-3.6,40.49,-3.57,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Metropolitano de Madrid,Aeroporto de Madrid,Metro,40,2,70,15,6:30,23:30,40.44,-3.6,40.49,-3.57,Madrid,Comunidade de Madrid,Espanha,Europa,Madrid,Comunidade de Madrid,Espanha,Europa
+Estadio Metropolitano de Madrid,Estadio de La Cartuja,Taxi,300,600,4,,,,40.44,-3.6,37.42,-6.01,Madrid,Comunidade de Madrid,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio Metropolitano de Madrid,Estadio de Villamarin,Taxi,300,600,4,,,,40.44,-3.6,37.38,-5.97,Madrid,Comunidade de Madrid,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio Metropolitano de Madrid,Estadio Camp Nou,Taxi,360,1000,4,,,,40.44,-3.6,41.38,2.12,Madrid,Comunidade de Madrid,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estacao Sur Madrid,Plaza de Armas (Sevilha),Autocarro Interurbano,420,30,50,240,9:00,17:00,40.38,-3.69,37.38,-5.99,Madrid,Comunidade de Madrid,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estacao Sur Madrid,Estacao Rodoviaria-Barcelona,Autocarro Interurbano,480,40,50,480,9:00,17:00,40.38,-3.69,41.39,2.15,Madrid,Comunidade de Madrid,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Atocha (Madrid),Barcelona-Sants,Comboio,150,80,400,120,00:00,24:00,40.41,-3.69,41.38,2.14,Madrid,Comunidade de Madrid,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Atocha (Madrid),Santa Justa (Sevilha),Comboio,150,70,400,180,00:00,24:00,40.41,-3.69,37.39,-5.97,Madrid,Comunidade de Madrid,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Aeroporto de Madrid,Aeroporto de Barcelona,Aviao,120,90,200,480,00:00,24:00,40.49,-3.57,41.3,2.08,Madrid,Comunidade de Madrid,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Aeroporto de Madrid,Aeroporto de Sevilha,Aviao,120,50,200,480,9:00,17:00,40.49,-3.57,37.42,-5.9,Madrid,Comunidade de Madrid,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Aeroporto de Madrid,Aeroporto de Marraquexe,Aviao,150,90,200,[1 por dia],10:00,10:00,40.49,-3.57,31.6,-8.03,Madrid,Comunidade de Madrid,Espanha,Europa,Marraquexe,Marraquexe-Safi,Marrocos,África
+Aeroporto de Madrid,Aeroporto Mohammed V (Casablanca),Aviao,150,90,200,[1 por dia],11:00,11:00,40.49,-3.57,33.37,-7.59,Madrid,Comunidade de Madrid,Espanha,Europa,Casablanca,Casablanca-Settat,Marrocos,África
+Aeroporto de Madrid,Aeroporto de Tanger,Aviao,150,90,200,[1 por dia],12:00,12:00,40.49,-3.57,35.73,-5.9,Madrid,Comunidade de Madrid,Espanha,Europa,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África
+Aeroporto de Madrid,Aeroporto de Rabat,Aviao,150,90,200,[1 por dia],13:00,13:00,40.49,-3.57,34.05,-6.77,Madrid,Comunidade de Madrid,Espanha,Europa,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Estadio de La Cartuja,Estadio de Villamarin,Taxi,15,10,4,,,,37.42,-6.01,37.38,-5.97,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de La Cartuja,Estadio de Villamarin,Autocarro,25,1.4,50,30,7:30,22:30,37.42,-6.01,37.38,-5.97,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de La Cartuja,Estadio de Villamarin,Caminhada,30,0,,,,,37.42,-6.01,37.38,-5.97,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de La Cartuja,Santa Justa (Sevilha),Taxi,15,10,4,,,,37.42,-6.01,37.39,-5.97,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de La Cartuja,Santa Justa (Sevilha),Autocarro,20,1.4,50,30,7:30,22:30,37.42,-6.01,37.39,-5.97,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de La Cartuja,Plaza de Armas (Sevilha),Taxi,10,10,4,,,,37.42,-6.01,37.38,-5.99,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de La Cartuja,Plaza de Armas (Sevilha),Autocarro,20,1.4,50,30,7:30,22:30,37.42,-6.01,37.38,-5.99,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de La Cartuja,Aeroporto de Sevilha,Taxi,20,25,4,,,,37.42,-6.01,37.42,-5.9,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de La Cartuja,Aeroporto de Sevilha,Autocarro,30,4,50,60,08:00,22:00,37.42,-6.01,37.42,-5.9,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de La Cartuja,Estadio Camp Nou,Taxi,540,1400,4,,,,37.42,-6.01,41.38,2.12,Sevilha,Andaluzia,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio de Villamarin,Estadio Camp Nou,Taxi,540,1400,4,,,,37.38,-5.97,41.38,2.12,Sevilha,Andaluzia,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio de Villamarin,Santa Justa (Sevilha),Taxi,10,10,4,,,,37.38,-5.97,37.39,-5.97,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de Villamarin,Santa Justa (Sevilha),Autocarro,15,1.4,50,30,7:30,22:30,37.38,-5.97,37.39,-5.97,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de Villamarin,Plaza de Armas (Sevilha),Taxi,15,10,4,,,,37.38,-5.97,37.38,-5.99,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de Villamarin,Plaza de Armas (Sevilha),Autocarro,15,1.4,50,30,7:30,22:30,37.38,-5.97,37.38,-5.99,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Estadio de Villamarin,Aeroporto de Sevilha,Taxi,15,20,4,,,,37.38,-5.97,37.42,-5.9,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Plaza de Armas (Sevilha),Aeroporto de Sevilha,Autocarro,20,4,50,30,08:00,22:00,37.38,-5.99,37.42,-5.9,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Plaza de Armas (Sevilha),Aeroporto de Sevilha,Taxi,10,10,4,,,,37.38,-5.99,37.42,-5.9,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Plaza de Armas (Sevilha),Santa Justa (Sevilha),Taxi,15,10,4,,,,37.38,-5.99,37.39,-5.97,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Plaza de Armas (Sevilha),Santa Justa (Sevilha),Autocarro,20,2,50,30,7:30,22:30,37.38,-5.99,37.39,-5.97,Sevilha,Andaluzia,Espanha,Europa,Sevilha,Andaluzia,Espanha,Europa
+Plaza de Armas (Sevilha),Estacao Rodoviaria-Barcelona,Autocarro Interurbano,780,50,50,480,9:00,17:00,37.38,-5.99,41.39,2.15,Sevilha,Andaluzia,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Aeroporto de Sevilha,Aeroporto de Barcelona,Aviao,120,100,200,[1 por dia],10:00,10:00,37.42,-5.9,41.3,2.08,Sevilha,Andaluzia,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Aeroporto de Sevilha,Aeroporto Mohammed V (Casablanca),Aviao,150,100,200,[1 por dia],11:00,11:00,37.42,-5.9,33.37,-7.59,Sevilha,Andaluzia,Espanha,Europa,Casablanca,Casablanca-Settat,Marrocos,África
+Santa Justa (Sevilha),Barcelona-Sants,Comboio,330,100,400,120,10:00,22:00,37.39,-5.97,41.38,2.14,Sevilha,Andaluzia,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio Camp Nou,Barcelona-Sants,Metro,10,2.40,70,15,6:30,23:30,41.38,2.12,41.38,2.14,Barcelona,Catalunha,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio Camp Nou,Barcelona-Sants,Taxi,10,15,4,,,,41.38,2.12,41.38,2.14,Barcelona,Catalunha,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio Camp Nou,Zona Universitaria (Estacao de Metro),Caminhada,10,0,,,,,41.38,2.12,41.38,2.11,Barcelona,Catalunha,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio Camp Nou,Aeroporto de Barcelona,Taxi,15,25,4,,,,41.38,2.12,41.3,2.08,Barcelona,Catalunha,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio Camp Nou,Aeroporto de Barcelona,Metro,30,4.2,70,15,6:30,23:30,41.38,2.12,41.3,2.08,Barcelona,Catalunha,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio Camp Nou,Estacao Rodoviaria-Barcelona,Taxi,15,15,4,,,,41.38,2.12,41.39,2.15,Barcelona,Catalunha,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Estadio Camp Nou,Estacao Rodoviaria-Barcelona,Metro,25,2.4,70,15,6:30,23:30,41.38,2.12,41.39,2.15,Barcelona,Catalunha,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Zona Universitaria (Estacao de Metro),Aeroporto de Barcelona,Taxi,20,25,4,,,,41.38,2.11,41.3,2.08,Barcelona,Catalunha,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Zona Universitaria (Estacao de Metro),Aeroporto de Barcelona,Metro,15,4.2,70,15,6:30,23:30,41.38,2.11,41.3,2.08,Barcelona,Catalunha,Espanha,Europa,Barcelona,Catalunha,Espanha,Europa
+Aeroporto de Barcelona,Aeroporto de Marraquexe,Aviao,180,100,200,[1 por dia],11:00,11:00,41.3,2.08,31.6,-8.03,Barcelona,Catalunha,Espanha,Europa,Marraquexe,Marraquexe-Safi,Marrocos,África
+Aeroporto de Barcelona,Aeroporto Mohammed V (Casablanca),Aviao,180,100,200,[1 por dia],13:00,13:00,41.3,2.08,33.37,-7.59,Barcelona,Catalunha,Espanha,Europa,Casablanca,Casablanca-Settat,Marrocos,África
+Estadio de Marraquexe,Estacao Ferroviaria de Marraquexe,Taxi,15,2,4,,,,31.62,-8.03,31.63,-8.01,Marraquexe,Marraquexe-Safi,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estadio de Marraquexe,Estacao Ferroviaria de Marraquexe,Autocarro,30,0.7,50,30,7:00,21:00,31.62,-8.03,31.63,-8.01,Marraquexe,Marraquexe-Safi,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estadio de Marraquexe,Aeroporto de Marraquexe,Taxi,30,10,4,,,,31.62,-8.03,31.6,-8.03,Marraquexe,Marraquexe-Safi,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estadio de Marraquexe,Estacao Rodoviaria de Marraquexe,Taxi,10,2,4,,,,31.62,-8.03,31.63,-8.02,Marraquexe,Marraquexe-Safi,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estadio de Marraquexe,Estacao Rodoviaria de Marraquexe,Autocarro,30,0.7,50,30,7:00,21:00,31.62,-8.03,31.63,-8.02,Marraquexe,Marraquexe-Safi,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estadio de Marraquexe,Estadio Mohammed V (Casablanca),Taxi,150,50,4,,,,31.62,-8.03,33.57,-7.67,Marraquexe,Marraquexe-Safi,Marrocos,África,Desconhecida,Desconhecida,Desconhecido,Desconhecido
+Estacao Ferroviaria de Marraquexe,Ain Sebaa (Casablanca),Comboio,150,10,300,120,10:00,22:00,31.63,-8.01,33.6,-7.52,Marraquexe,Marraquexe-Safi,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Estacao Rodoviaria de Marraquexe,Casa Voyageurs (Casablanca),Autocarro,210,10,50,120,10:00,22:00,31.63,-8.02,33.59,-7.62,Marraquexe,Marraquexe-Safi,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Aeroporto de Marraquexe,Aeroporto Mohammed V (Casablanca),Aviao,120,95,200,480,10:00,18:00,31.6,-8.03,33.37,-7.59,Marraquexe,Marraquexe-Safi,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Estadio Abdellah (Rabat),Rabat Ville,Taxi,20,3,4,,,,34.02,-6.85,34.02,-6.84,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Estadio Abdellah (Rabat),Rabat Ville,Autocarro,45,1,50,30,7:00,21:00,34.02,-6.85,34.02,-6.84,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Estadio Abdellah (Rabat),Aeroporto de Rabat,Taxi,35,15,4,,,,34.02,-6.85,34.05,-6.77,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Estadio Abdellah (Rabat),Estacao Rodoviaria de Rabat,Taxi,20,3,4,,,,34.02,-6.85,34.01,-6.85,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Estadio Abdellah (Rabat),Estacao Rodoviaria de Rabat,Autocarro,60,1,50,60,7:00,21:00,34.02,-6.85,34.01,-6.85,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Estadio Abdellah (Rabat),Estadio de Marraquexe,Taxi,240,115,4,,,,34.02,-6.85,31.62,-8.03,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estadio Abdellah (Rabat),Estadio Mohammed V (Casablanca),Taxi,80,80,4,,,,34.02,-6.85,33.57,-7.67,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Desconhecida,Desconhecida,Desconhecido,Desconhecido
+Estadio Abdellah (Rabat),Estadio de Fez,Taxi,240,70,4,,,,34.02,-6.85,34.03,-4.98,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Rabat Ville,Ain Sebaa (Casablanca),Comboio,60,7,300,120,10:00,22:00,34.02,-6.84,33.6,-7.52,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Rabat Ville,Estacao Ferroviaria de Fez,Comboio,180,9,300,120,10:00,22:00,34.02,-6.84,34.04,-4.99,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Rabat Ville,Estacao Ferroviaria de Marraquexe,Comboio,240,25,300,120,10:00,22:00,34.02,-6.84,31.63,-8.01,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estacao Rodoviaria de Rabat,Casa Voyageurs (Casablanca),Autocarro,90,4,50,120,10:00,22:00,34.01,-6.85,33.59,-7.62,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Estacao Rodoviaria de Rabat,Estacao Rodoviaria de Fez,Autocarro,300,8,50,480,10:00,18:00,34.01,-6.85,34.05,-4.98,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Estacao Rodoviaria de Rabat,Estacao Rodoviaria de Marraquexe,Autocarro,360,12,50,480,10:00,18:00,34.01,-6.85,31.63,-8.02,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Aeroporto de Rabat,Aeroporto Mohammed V (Casablanca),Aviao,300,100,200,[1 por dia],11:00,11:00,34.05,-6.77,33.37,-7.59,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Aeroporto de Rabat,Aeroporto de Marraquexe,Aviao,120,100,200,[1 por dia],12:00,12:00,34.05,-6.77,31.6,-8.03,Rabat,Rabat-Salé-Quenitra,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estadio Ibn Batouta (Tanger),Estacao Rodoviaria de Tanger,Taxi,15,1.5,4,,,,35.73,-5.91,35.77,-5.8,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África
+Estadio Ibn Batouta (Tanger),Estacao Rodoviaria de Tanger,Autocarro,30,0.7,50,30,7:00,21:00,35.73,-5.91,35.77,-5.8,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África
+Estadio Ibn Batouta (Tanger),Aeroporto de Tanger,Taxi,20,8,4,,,,35.73,-5.91,35.73,-5.9,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África
+Estadio Ibn Batouta (Tanger),Tanger Ville,Taxi,20,2,4,,,,35.73,-5.91,35.77,-5.81,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África
+Estadio Ibn Batouta (Tanger),Tanger Ville,Autocarro,30,1,50,30,7:00,21:00,35.73,-5.91,35.77,-5.81,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África
+Estadio Ibn Batouta (Tanger),Estadio de Marraquexe,Taxi,420,250,4,,,,35.73,-5.91,31.62,-8.03,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estadio Ibn Batouta (Tanger),Estadio Mohammed V (Casablanca),Taxi,210,20,4,,,,35.73,-5.91,33.57,-7.67,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Desconhecida,Desconhecida,Desconhecido,Desconhecido
+Estadio Ibn Batouta (Tanger),Estadio de Fez,Taxi,300,25,4,,,,35.73,-5.91,34.03,-4.98,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Estadio Ibn Batouta (Tanger),Estadio Abdellah (Rabat),Taxi,240,20,4,,,,35.73,-5.91,34.02,-6.85,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Estacao Rodoviaria de Tanger,Casa Voyageurs (Casablanca),Autocarro,300,10,50,480,10:00,18:00,35.77,-5.8,33.59,-7.62,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Estacao Rodoviaria de Tanger,Estacao Rodoviaria de Fez,Autocarro,240,15,50,480,10:00,18:00,35.77,-5.8,34.05,-4.98,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Estacao Rodoviaria de Tanger,Estacao Rodoviaria de Marraquexe,Autocarro,480,20,50,480,10:00,18:00,35.77,-5.8,31.63,-8.02,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estacao Rodoviaria de Tanger,Estacao Rodoviaria de Rabat,Autocarro,240,10,50,480,10:00,18:00,35.77,-5.8,34.01,-6.85,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Tanger Ville,Ain Sebaa (Casablanca),Comboio,150,12,300,120,10:00,22:00,35.77,-5.81,33.6,-7.52,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Tanger Ville,Estacao Ferroviaria de Fez,Comboio,210,25,300,240,08:00,20:00,35.77,-5.81,34.04,-4.99,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Tanger Ville,Rabat Ville,Comboio,150,14,300,120,10:00,22:00,35.77,-5.81,34.02,-6.84,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Aeroporto de Tanger,Aeroporto Mohammed V (Casablanca),Aviao,120,100,200,480,09:00,17:00,35.73,-5.9,33.37,-7.59,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Aeroporto de Tanger,Aeroporto de Rabat,Aviao,180,100,200,[1 por dia],12:00,12:00,35.73,-5.9,34.05,-6.77,Tanger,Tânger-Tetuão-Al Hoceima,Marrocos,África,Rabat,Rabat-Salé-Quenitra,Marrocos,África
+Estadio de Fez,Estacao Ferroviaria de Fez,Taxi,20,2,4,,,,34.03,-4.98,34.04,-4.99,Fez,Fez-Mequinez,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Estadio de Fez,Estacao Rodoviaria de Fez,Taxi,20,2,4,,,,34.03,-4.98,34.05,-4.98,Fez,Fez-Mequinez,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Estadio de Fez,Aeroporto de Fez,Taxi,30,15,4,,,,34.03,-4.98,33.93,-4.98,Fez,Fez-Mequinez,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Estadio de Fez,Estadio de Marraquexe,Taxi,420,150,4,,,,34.03,-4.98,31.62,-8.03,Fez,Fez-Mequinez,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Estadio de Fez,Estadio Mohammed V (Casablanca),Taxi,240,20,4,,,,34.03,-4.98,33.57,-7.67,Fez,Fez-Mequinez,Marrocos,África,Desconhecida,Desconhecida,Desconhecido,Desconhecido
+Estadio de Fez,Medina de Fez,Taxi,15,2,4,,,,34.03,-4.98,34.06,-4.98,Fez,Fez-Mequinez,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Medina de Fez,Aeroporto de Fez,Autocarro,40,0.3,50,30,7:00,21:00,34.06,-4.98,33.93,-4.98,Fez,Fez-Mequinez,Marrocos,África,Fez,Fez-Mequinez,Marrocos,África
+Estacao Ferroviaria de Fez,Ain Sebaa (Casablanca),Comboio,130,10,300,120,10:00,22:00,34.04,-4.99,33.6,-7.52,Fez,Fez-Mequinez,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Estacao Rodoviaria de Fez,Casa Voyageurs (Casablanca),Autocarro,300,10,50,360,10:00,22:00,34.05,-4.98,33.59,-7.62,Fez,Fez-Mequinez,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Estacao Rodoviaria de Fez,Estacao Rodoviaria de Marraquexe,Autocarro,480,8,50,480,10:00,18:00,34.05,-4.98,31.63,-8.02,Fez,Fez-Mequinez,Marrocos,África,Marraquexe,Marraquexe-Safi,Marrocos,África
+Aeroporto de Fez,Aeroporto Mohammed V (Casablanca),Aviao,180,100,200,[1 por dia],15:00,15:00,33.93,-4.98,33.37,-7.59,Fez,Fez-Mequinez,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Estadio Mohammed V (Casablanca),Casa Voyageurs (Casablanca),Autocarro,30,2,4,,,,33.57,-7.67,33.59,-7.62,Desconhecida,Desconhecida,Desconhecido,Desconhecido,Casablanca,Casablanca-Settat,Marrocos,África
+Estadio Mohammed V (Casablanca),Casa Voyageurs (Casablanca),Taxi,10,5,4,,,,33.57,-7.67,33.59,-7.62,Desconhecida,Desconhecida,Desconhecido,Desconhecido,Casablanca,Casablanca-Settat,Marrocos,África
+Estadio Mohammed V (Casablanca),Ain Sebaa (Casablanca),Taxi,20,10,4,,,,33.57,-7.67,33.6,-7.52,Desconhecida,Desconhecida,Desconhecido,Desconhecido,Casablanca,Casablanca-Settat,Marrocos,África
+Estadio Mohammed V (Casablanca),Ain Sebaa (Casablanca),Autocarro,30,1,50,30,7:00,21:00,33.57,-7.67,33.6,-7.52,Desconhecida,Desconhecida,Desconhecido,Desconhecido,Casablanca,Casablanca-Settat,Marrocos,África
+Estadio Mohammed V (Casablanca),Aeroporto Mohammed V (Casablanca),Taxi,40,27,4,,,,33.57,-7.67,33.37,-7.59,Desconhecida,Desconhecida,Desconhecido,Desconhecido,Casablanca,Casablanca-Settat,Marrocos,África
+Casa Voyageurs (Casablanca),Aeroporto Mohammed V (Casablanca),Comboio,30,4.5,100,60,7:00,21:00,33.59,-7.62,33.37,-7.59,Casablanca,Casablanca-Settat,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Casa Voyageurs (Casablanca),Aeroporto Mohammed V (Casablanca),Autocarro,30,5,50,30,7:00,21:00,33.59,-7.62,33.37,-7.59,Casablanca,Casablanca-Settat,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
+Casa Voyageurs (Casablanca),Aeroporto Mohammed V (Casablanca),Taxi,10,8,4,,,,33.59,-7.62,33.37,-7.59,Casablanca,Casablanca-Settat,Marrocos,África,Casablanca,Casablanca-Settat,Marrocos,África
