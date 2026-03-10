@@ -37,7 +37,7 @@ The system is highly modular and offers two user interfaces:
 
 <img width="846" height="882" alt="image" src="https://github.com/user-attachments/assets/d9228fa1-fd3e-4652-9cc5-68407cbca0e4" />
 
-**Key Modules:**
+**Key Modules & Data:**
 * `grafo.py`: Constructs the undirected graph from CSV connection data.
 * `clima.py`: Handles OpenWeather API calls to dynamically update edge weights based on weather severity.
 * `combustivel.py`: Calculates Haversine distances and refueling stops.
@@ -45,6 +45,7 @@ The system is highly modular and offers two user interfaces:
 * `tempo.py`: Manages schedules, and total journey durations.
 * `config.py`: Centralizes system configurations, including API keys, vehicle autonomy limits, and weather severity dictionaries.
 * `main.py` & `app.py`: The primary entry points for the application, handling user inputs for the CLI and Web interfaces, respectively.
+* `ligacoes.csv`: The synthetic dataset containing all simulated routes, travel times, monetary costs, and vehicle capacities.
 
 #### 🏁 Quick Start (How to Run)
 To run this project locally, ensure you have Python installed, then install the required dependencies:
